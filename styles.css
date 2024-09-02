@@ -1,0 +1,164 @@
+ /* styles.css */
+h1{
+    text-align: center;
+    background-color: #6755ce;
+    color: #0e0303;
+    padding: 30px;
+    margin: auto;
+    /* position: sticky; */
+    /* top: 0px; */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9fc0eb;
+    color: rgb(20, 13, 13);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+   
+
+}
+header .logo {
+    font-size:100%;
+    font-weight: bolder;
+    background-color: azure;    
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header nav ul li {
+    margin: 0 10px;
+   
+}
+
+header nav ul li a {
+    color: rgb(20, 3, 3);
+    text-decoration: none;
+} 
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #bcd4df;
+}
+
+.hero .banner-image {
+    height: 200px;
+    background-image: url(1.jpg);
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero .search-bar input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.hero .search-bar button {
+    padding: 10px 20px;
+}
+
+.hero .tagline {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+main h2 {
+    margin-bottom: 20px;
+}
+
+.courses, .papers, .category-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.course, .paper, .category {
+    background-color: #c7cbff;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #9bcde4;
+    color: rgb(36, 35, 43);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer div {
+    width: 30%;
+    text-align: center;
+}
+form{
+    input[type=text], input[type=email], input[type=password]
+     {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    input[type=submit], input[type=reset] {
+        width: 15%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+  background-color: #cdd1f0;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    margin-inline: 200px;
+    border-radius: 20px;
+    height: 500px;    
+    width: 50%;
+    display: inline-b
+    box-sizing: border-box;
+    padding: 14px 20px;
+}
+.social-media-icons {
+    display: flex;
+    gap: 15px;
+    fill: green;
+}
+
+.social-media-icons a {
+    fill: green;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.social-media-icons a:hover {
+    fill: green;
+}
+img{
+    width: 30px;
+    height:30px;
+}
