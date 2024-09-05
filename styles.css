@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;display: flex;
+    background-color: #6ecbf9;
+}
+
+.profile-card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 24px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0,1);
+}
+
+.profile-card::before{
+    content: "";
+    position: absolute;
+    height: 36%;
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(255,71,215);
+}
+
+.image{
+    position: relative;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(176,28,169);
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+.image .profile-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-card .text-data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #333;
+}
+
+.text-data .name{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.text-data .job{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.profile-card .media-buttons{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.media-buttons .link{
+    display: flex;
+    height: 34px;
+    width: 34px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: rgb(252,71,255);
+}
+
+.profile-card .buttons{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.buttons .buttons{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    margin: 0;
+    border-radius: 24px;
+    padding: 8px 24px;
+    cursor: pointer;
+    background-color: rgb(255,71,252);
+    transition: all 0.3s ease;
+}
+
+.buttons .buttons:hover{
+    background-color: rgb(255,0,204);
+}
+
+.profile-card .analytics{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.analytics .data{
+    display: flex;
+    color: #333;
+    align-items: center;
+    border-right: 2px solid #e7e7e7;
+    padding: 0 20px;
+}
+
+.data i{
+    margin-right: 6px;
+    font-size: 18px;
+}
+
+.data:last-child{
+    border-right: none;
+}
